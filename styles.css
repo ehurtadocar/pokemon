@@ -1,4 +1,4 @@
-/* Hacer que la página ocupe toda la pantalla y centrar la carta */
+
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -9,9 +9,9 @@ body {
     height: 100vh;
 }
 
-/* Estilo de la carta de Pokémon */
+
 .pokemon-card {
-    background-color: white;
+    background-color: rgb(196, 238, 202);
     width: 250px;
     border: 2px solid black;
     border-radius: 10px;
@@ -20,21 +20,21 @@ body {
     text-align: center;
 }
 
-/* Imagen del Pokémon, que ocupe todo el ancho disponible */
+
 .pokemon-image {
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-/* Nombre del Pokémon */
+
 .pokemon-name {
     font-size: 20px;
     color: black;
     margin-top: 10px;
 }
 
-/* Tipos de Pokémon, estilo de los textos */
+
 .pokemon-type {
     display: inline-block;
     padding: 5px;
@@ -52,7 +52,7 @@ body {
     background-color: #A040A0; /* Violeta */
 }
 
-/* Descripción del Pokémon */
+
 .pokemon-description {
     font-size: 12px;
     color: #333;
